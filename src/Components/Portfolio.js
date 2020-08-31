@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import Project from "./Project";
 
 function Portfolio() {
 
     const [projects, setProjects] = useState();
 
-    const useEffect;
+    
 
     return (
         <div>
