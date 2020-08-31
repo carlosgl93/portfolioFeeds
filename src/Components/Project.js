@@ -3,8 +3,6 @@ import { Avatar } from '@material-ui/core'
 import ThumbUpIcon from "@material-ui/icons/ThumbUp"
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline"
 import NearMeIcon from "@material-ui/icons/NearMe"
-import { ExpandMoreOutlined, AccountCircle } from "@material-ui/icons"
-import AccountCircleIcon from "@material-ui/icons/AccountCircle"
 import "../Css/Project.css"
 
 function Project() {
@@ -15,6 +13,7 @@ function Project() {
                 <Avatar
                     src=""
                     className="post_avatar"
+                    alt="userAvatar "
                 />
                 <div className="post_topInfo">
                     <h3>Post Author</h3>
